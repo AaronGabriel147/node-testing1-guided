@@ -70,6 +70,8 @@ describe('Car class', () => {
       prius.drive(5)
       expect(prius.odometer).toBe(5)
     })
-    it('driving returns and object { odot')
+    it('driving returns an object { odometer, distance }', () => {
+      // you
+    })
   })
 })
