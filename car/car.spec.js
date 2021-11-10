@@ -50,11 +50,9 @@ describe('Car class', () => {
     expect(prius).toBeInstanceOf(Car)
   })
   it('can make cars with a `make` property', () => {
-    const prius = new Car('toyota', 'prius')
     expect(prius).toHaveProperty('make')
   })
   it('can make cars with a model property and the correct value for it', () => {
-    const prius = new Car('toyota', 'prius')
     expect(prius).toHaveProperty('model', 'prius')
     expect(prius.model).toBeDefined()
     expect(prius.model).toBe('prius')
