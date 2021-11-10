@@ -13,6 +13,13 @@ class Car {
     }
   }
   async driveAsyn(...legs) {
+    // return the sum of all legs...
+    let total = 0
+    for (let leg of legs) {
+      total += leg
+    }
+
+    return total
 
   }
 }
