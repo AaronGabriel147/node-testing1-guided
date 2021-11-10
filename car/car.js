@@ -5,7 +5,9 @@ class Car {
     this.model = model
     this.odometer = 0
   }
-  // implement!
+  drive() {
+
+  }
 }
 
 module.exports = Car
