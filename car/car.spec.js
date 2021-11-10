@@ -1,3 +1,5 @@
+const Car = require('./car')
+
 describe('Intro to testing', () => {
   test('sanity', () => { // test
     // assertions are usually closely related
