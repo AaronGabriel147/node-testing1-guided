@@ -69,6 +69,8 @@ describe('Car class', () => {
     it('driving a distance increases the odometer by that distance', () => {
       prius.drive(5)
       expect(prius.odometer).toBe(5)
+      prius.drive(5)
+      expect(prius.odometer).toBe(10)
     })
     it('driving returns an object { odometer, distance }', () => {
       expect(prius.drive(100)).toMatchObject({ odometer: 100, distance: 100 })
