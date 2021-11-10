@@ -33,5 +33,8 @@ describe('comparing values', () => {
 })
 
 describe('Car class', () => {
-  // tdd starts in the green
+  // tdd starts with tests passing
+  // step 1 - write a simple test that fails
+  // step 2 - write code to make the test pass
+  // step 3 - reward yourself refactoring
 })
