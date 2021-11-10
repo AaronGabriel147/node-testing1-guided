@@ -37,4 +37,7 @@ describe('Car class', () => {
   // step 1 - write a simple test that fails
   // step 2 - write code to make the test pass
   // step 3 - reward yourself refactoring
+  it('Car class exists', () => {
+    // ?????
+  })
 })
