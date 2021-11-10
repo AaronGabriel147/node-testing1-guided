@@ -74,8 +74,8 @@ describe('Car class', () => {
     })
     it('driving returns an object { odometer, distance }', () => {
       expect(prius.drive(100)).toMatchObject({ odometer: 100, distance: 100 })
-      expect(prius.drive(100)).toMatchObject({ odometer: 150, distance: 50 })
-      expect(prius.drive(100)).toMatchObject({ odometer: 160, distance: 10 })
+      expect(prius.drive(50)).toMatchObject({ odometer: 150, distance: 50 })
+      expect(prius.drive(10)).toMatchObject({ odometer: 160, distance: 10 })
     })
   })
 })
