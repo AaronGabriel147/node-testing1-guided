@@ -18,6 +18,7 @@ describe('comparing values', () => {
     expect([]).not.toBe([])
     // if one assertion fails, the whole test fails!
     expect({}).toEqual({})
+    // these are better than toEqual:
     expect({ a: 1, b: 2 }).toMatchObject({ b: 2 })
     expect({ a: 1, b: 2 }).toHaveProperty('a')
     expect({ a: 1, b: 2 }).toHaveProperty('b', 2)
