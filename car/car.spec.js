@@ -81,7 +81,8 @@ describe('Car class', () => {
   })
   describe('driveAsync method', () => {
     it('takes trip legs, and resolves the total driven distance', async () => {
-
+      const result = await prius.driveAsync(1, 2, 3)
+      expect(result).toBe(6)
     })
   })
 })
