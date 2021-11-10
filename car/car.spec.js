@@ -24,6 +24,6 @@ describe('comparing values', () => {
     expect({ a: 1, b: 2 }).toHaveProperty('b', 2)
     // the actual usually comes from a function we're testing
     function foo() { return {} } // comes from a different file
-    expect(foo()).toBe({}) // the actual comes from invoking the function
+    expect(foo()).toEqual({}) // the actual comes from invoking the function
   })
 })
