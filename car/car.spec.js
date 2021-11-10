@@ -38,6 +38,6 @@ describe('Car class', () => {
   // step 2 - write code to make the test pass
   // step 3 - reward yourself refactoring
   it('Car class exists', () => {
-    // ?????
+    expect(Car).
   })
 })
