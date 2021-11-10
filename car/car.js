@@ -1,4 +1,6 @@
 // Build a Car class!
-class Car {}
+class Car {
+  // refactor
+
 
 module.exports = Car
