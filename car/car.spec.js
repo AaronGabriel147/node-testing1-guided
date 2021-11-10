@@ -55,6 +55,6 @@ describe('Car class', () => {
     const prius = new Car('toyota', 'prius')
     expect(prius).toHaveProperty('model', 'prius')
     expect(prius.model).toBeDefined()
-    expect(prius.model).toBe('')
+    expect(prius.model).toBe('prius')
   })
 })
