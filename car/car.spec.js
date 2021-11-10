@@ -42,4 +42,7 @@ describe('Car class', () => {
   it('Car class exists', () => {
     expect(Car).toBeDefined()
   })
+  it('Car constructor can make instances of cars', () => {
+    
+  })
 })
