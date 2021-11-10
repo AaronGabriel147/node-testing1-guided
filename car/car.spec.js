@@ -58,6 +58,6 @@ describe('Car class', () => {
     expect(prius.model).toBe('prius')
   })
   it('all new cars have an odometer set at 0 miles', () => {
-    expect(prius).toMatchObject({ odometer})
+    expect(prius).toMatchObject({ odometer: 0 })
   })
 })
