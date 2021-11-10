@@ -25,7 +25,7 @@ describe('comparing values', () => {
     // the actual usually comes from a function we're testing
     function foo() { return {} } // comes from a different file
     expect(foo()).toEqual({}) // the actual comes from invoking the function
-    // if objects ar etruly the same then toBe works just fine
+    // if objects are truly the same then toBe works just fine
     const a = 1
     const b = a
     expect(b).toBe(a)
