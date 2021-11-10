@@ -71,7 +71,7 @@ describe('Car class', () => {
       expect(prius.odometer).toBe(5)
     })
     it('driving returns an object { odometer, distance }', () => {
-      // you
+      expect(prius.drive(100)).toEqual({ odometer: 100, distance: 100 })
     })
   })
 })
