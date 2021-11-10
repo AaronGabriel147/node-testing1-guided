@@ -80,8 +80,8 @@ describe('Car class', () => {
     })
   })
   describe('driveAsync method', () => {
-    it('takes trip legs, and resolves the total driven distance', () => {
-      
+    it('takes trip legs, and resolves the total driven distance', async () => {
+
     })
   })
 })
