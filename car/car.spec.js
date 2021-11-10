@@ -45,6 +45,6 @@ describe('Car class', () => {
   it('Car constructor can make instances of cars', () => {
     const prius = new Car('toyota', 'prius') // the actual
     // assert that prius is actually a Car (an instance of the Car class)
-    // this is you!!!!!!
+    expect(prius).toBeInstanceOf(Car)
   })
 })
