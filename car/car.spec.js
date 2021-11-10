@@ -47,4 +47,8 @@ describe('Car class', () => {
     // assert that prius is actually a Car (an instance of the Car class)
     expect(prius).toBeInstanceOf(Car)
   })
+  it('can make cars with a `make` property', () => {
+    const prius = new Car('toyota', 'prius')
+    // assert that prius has a `make` prop
+  })
 })
