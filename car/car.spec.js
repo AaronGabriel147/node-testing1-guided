@@ -39,16 +39,16 @@ describe('Car class', () => {
   // step 1 - write a simple test that fails
   // step 2 - write code to make the test pass
   // step 3 - reward yourself refactoring
-  it('Car class exists', () => {
+  it('exists', () => {
     expect(Car).toBeDefined()
   })
-  it('Car constructor can make instances of cars', () => {
+  it('can make instances of cars', () => {
     const prius = new Car('toyota', 'prius') // the actual
     // assert that prius is actually a Car (an instance of the Car class)
     expect(prius).toBeInstanceOf(Car)
   })
   it('can make cars with a `make` property', () => {
     const prius = new Car('toyota', 'prius')
-    // assert that prius has a `make` prop // YOU!
+    expect(prius).toMatchObject({make: 'toyota', model: 'toyota'})
   })
 })
