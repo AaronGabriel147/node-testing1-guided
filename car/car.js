@@ -13,9 +13,10 @@ class Car {
     }
   }
   async driveAsync(...legs) {
-    return legs.reduce((acc, leg) => {
-      return acc + leg
-    })
+    let result = 0
+    for (let leg of legs) {
+      result += leg
+    }
   }
 }
 
