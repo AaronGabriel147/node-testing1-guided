@@ -19,5 +19,7 @@ describe('comparing values', () => {
     // if one assertion fails, the whole test fails!
     expect({}).toEqual({})
     expect({ a: 1, b: 2 }).toMatchObject({ b: 2 })
+    expect({ a: 1, b: 2 }).toHaveProperty('a')
+    expect({ a: 1, b: 2 }).toHaveProperty('b', 2)
   })
 })
