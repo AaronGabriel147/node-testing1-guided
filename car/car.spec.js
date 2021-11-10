@@ -14,6 +14,6 @@ describe('Intro to testing', () => {
 
 describe('comparing values', () => {
   test('objects', () => {
-    expect({}).toBe({})
+    expect({}).toBe({}) // toBe does not work with objects like we expect!
   })
 })
