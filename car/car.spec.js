@@ -11,3 +11,9 @@ describe('Intro to testing', () => {
     expect(actualValue).toBe(expectedValue)
   })
 })
+
+describe('comparing values', () => {
+  test('objects', () => {
+    expect({}).toBe({})
+  })
+})
