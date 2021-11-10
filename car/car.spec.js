@@ -22,5 +22,8 @@ describe('comparing values', () => {
     expect({ a: 1, b: 2 }).toMatchObject({ b: 2 })
     expect({ a: 1, b: 2 }).toHaveProperty('a')
     expect({ a: 1, b: 2 }).toHaveProperty('b', 2)
+    // the actual usually comes from a function we're testing
+    function foo() { return 'foo' } // comes from a different file
+    
   })
 })
