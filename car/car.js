@@ -1,6 +1,8 @@
 // Build a Car class!
 class Car {
-  // refactor
+  constructor(make) {
+    this.make = make
+  }
 }
 
 module.exports = Car
