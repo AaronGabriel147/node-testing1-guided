@@ -18,6 +18,6 @@ describe('comparing values', () => {
     expect([]).not.toBe([])
     // if one assertion fails, the whole test fails!
     expect({}).toEqual({})
-    expect({}).
+    expect({ a: 1, b: 2 }).toMatchObject({ b: 2 })
   })
 })
