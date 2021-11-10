@@ -49,6 +49,6 @@ describe('Car class', () => {
   })
   it('can make cars with a `make` property', () => {
     const prius = new Car('toyota', 'prius')
-    expect(prius).toMatchObject({make: 'toyota', model: 'toyota'})
+    expect(prius).toHaveProperty('make')
   })
 })
