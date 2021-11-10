@@ -12,7 +12,7 @@ class Car {
       odometer: this.odometer,
     }
   }
-  async driveAsyn(...legs) {
+  async driveAsync(...legs) {
     return legs.reduce((acc, leg) => {
       return acc + leg
     })
