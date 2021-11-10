@@ -79,4 +79,7 @@ describe('Car class', () => {
       expect(prius.drive(10)).toMatchObject({ odometer: 160, distance: 10 })
     })
   })
+  describe('driveAsync method', () => {
+    it('takes trip legs, and resolves the total driven distance')
+  })
 })
