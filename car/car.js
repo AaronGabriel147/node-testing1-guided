@@ -17,6 +17,7 @@ class Car {
     for (let leg of legs) {
       result += leg
     }
+    return result
   }
 }
 
