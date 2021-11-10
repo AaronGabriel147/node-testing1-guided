@@ -49,6 +49,6 @@ describe('Car class', () => {
   })
   it('can make cars with a `make` property', () => {
     const prius = new Car('toyota', 'prius')
-    // assert that prius has a `make` prop
+    // assert that prius has a `make` prop // YOU!
   })
 })
