@@ -51,4 +51,5 @@ describe('Car class', () => {
     const prius = new Car('toyota', 'prius')
     expect(prius).toHaveProperty('make')
   })
+  it('can make cars with a model')
 })
