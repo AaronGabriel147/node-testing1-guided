@@ -60,4 +60,7 @@ describe('Car class', () => {
   it('all new cars have an odometer set at 0 miles', () => {
     expect(prius).toMatchObject({ odometer: 0 })
   })
+  describe('drive method', () => {
+    
+  })
 })
