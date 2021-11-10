@@ -35,6 +35,8 @@ describe('comparing values', () => {
 })
 
 describe('Car class', () => {
+  let prius
+  
   // tdd starts with tests passing
   // step 1 - write a simple test that fails
   // step 2 - write code to make the test pass
