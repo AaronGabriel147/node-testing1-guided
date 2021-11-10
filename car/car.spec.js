@@ -36,7 +36,9 @@ describe('comparing values', () => {
 
 describe('Car class', () => {
   let prius
-  
+  beforeEach(() => {
+    prius = new Car('toyota', 'prius')
+  })
   // tdd starts with tests passing
   // step 1 - write a simple test that fails
   // step 2 - write code to make the test pass
@@ -45,8 +47,6 @@ describe('Car class', () => {
     expect(Car).toBeDefined()
   })
   it('can make instances of cars', () => {
-    const prius = new Car('toyota', 'prius') // the actual
-    // assert that prius is actually a Car (an instance of the Car class)
     expect(prius).toBeInstanceOf(Car)
   })
   it('can make cars with a `make` property', () => {
