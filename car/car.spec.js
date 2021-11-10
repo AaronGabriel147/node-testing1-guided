@@ -31,3 +31,7 @@ describe('comparing values', () => {
     expect(b).toBe(a)
   })
 })
+
+describe('Car class', () => {
+  // tdd starts in the green
+})
