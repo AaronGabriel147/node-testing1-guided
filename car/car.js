@@ -11,7 +11,8 @@ class Car
   {
     this.odometer += miles
     return {
-      di
+      distance: miles,
+      odometer: this.odometer,
     }
   }
 }
