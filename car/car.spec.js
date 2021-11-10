@@ -67,5 +67,8 @@ describe('Car class', () => {
       expect(prius.drive).toBeInstanceOf(Function)
       expect(prius.drive).toBe(Car.prototype.drive)
     })
+    it('driving a distance increases the odometer by that distance', () => {
+      // You
+    })
   })
 })
