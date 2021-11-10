@@ -17,7 +17,6 @@ describe('comparing values', () => {
     expect({}).not.toBe({}) // toBe does not work with objects like we expect!
     expect([]).not.toBe([])
 
-    expect({}).toEqual({})
-    expect({}).toMatchPro
+    expect({}).not.toEqual({})
   })
 })
