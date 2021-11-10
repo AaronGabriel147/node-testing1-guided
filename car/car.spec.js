@@ -62,6 +62,8 @@ describe('Car class', () => {
   })
   describe('drive method', () => {
     // cars have a drive method
-    
+    it('cars have a drive method', () => {
+      expect(prius.drive)
+    })
   })
 })
