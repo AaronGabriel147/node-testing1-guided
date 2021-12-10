@@ -1,1 +1,7 @@
-// Build a Car class!
+
+class Car {
+    constructor(model) {
+        this.model = model;
+    }
+}
+module.exports = Car;
